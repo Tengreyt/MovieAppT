@@ -71,4 +71,7 @@ h2 {
     .modal__card {
         max-width: 400px;
     }
+    .stop-scrolling {
+        height: 100%;
+    }
 }
