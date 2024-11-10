@@ -12,6 +12,9 @@ body {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
+    top: 0;
+    z-index: 1000; /* Устанавливаем z-index, чтобы header был поверх других элементов */
+    background-color: var(--darkgray); /* Фон, который будет виден при скролле */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Добавляем тень для выделения */
 }
+
